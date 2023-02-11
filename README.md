@@ -1,1 +1,1 @@
-# code-fights
+# CODE FIGHTS
