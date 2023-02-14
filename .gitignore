@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.obj
+*.vs
+obj/
+debug/
 
 # Extended tests
 *_tests.py
