@@ -1,19 +1,19 @@
-namespace CodeFights
-{
-    using NUnit.Framework;
-    using System;
+using System;
 
-    [TestFixture]
-    public class Challenge_Bonus
+namespace SchroedingersCatProgram
+{
+    class Program
     {
-        [Test]
-        public void SchroedingerTestCase()
+        static void Main(string[] args)
         {
-            /*
-             * Should pass!
-             */
+            bool SCHROEDINGER = SchroedingersCat();
+            Console.WriteLine(SCHROEDINGER); // Outputs: True and False!
+        }
+
+        static bool SchroedingersCat()
+        {
             bool SCHROEDINGER = (SCHROEDINGER == true && SCHROEDINGER == false);
-            Assert.IsTrue(SCHROEDINGER);
+            return SCHROEDINGER;
         }
     }
 }
